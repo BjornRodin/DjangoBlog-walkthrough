@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoblog-walthrough-rodin.herokuapp.com', 'localhost', 'djangoblog-walkthrough-rodin-4dca876d5b28.herokuapp.com']
+ALLOWED_HOSTS = ['djangoblog-walthrough-rodin.herokuapp.com', 'localhost', 'djangoblog-walkthrough-rodin-4dca876d5b28.herokuapp.com', '8000-bjornrodin-djangoblogwa-djhmawm2y96.ws-eu101.gitpod.io']
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
